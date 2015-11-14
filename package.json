@@ -1,0 +1,24 @@
+{
+  "name": "header-field",
+  "version": "0.1.0",
+  "description": "Properly format a header field into a capitalized hyphenated string.",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "main": "index.js",
+  "keywords": [
+    "header",
+    "field",
+    "hyphenated",
+    "hyphen",
+    "capitalize",
+    "capital",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/header-field"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
+  }
+}
