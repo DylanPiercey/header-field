@@ -8,5 +8,6 @@ describe("header-field", function () {
 		assert.equal(field("Content-Disposition"), "Content-Disposition");
 		assert.equal(field("Content-DisPosition"), "Content-Disposition");
 		assert.equal(field("referrer"), "Referer");
+		assert.equal(field.lowerCase("Referrer"), "referer");
 	});
 });

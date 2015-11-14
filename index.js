@@ -19,6 +19,12 @@ function field (str) {
 	return result;
 }
 
+field.lowerCase = function fieldLowerCase (str) {
+	str = String(str).toLowerCase();
+	if (str === "referrer") str = "referer";
+	return str;
+};
+
 /**
  * Simple utility to uppercase a string.
  */

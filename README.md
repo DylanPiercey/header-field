@@ -19,6 +19,9 @@ field("Content-Disposition"); //-> "Content-Disposition"
 
 // Special case: referrer -> referer.
 field("referrer"); //-> "Referer"
+
+// For lowercased headers.
+field.lowerCase("Referrer"); //-> "referer"
 ```
 
 ### Contributions
