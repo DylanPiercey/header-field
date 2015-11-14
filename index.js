@@ -6,7 +6,7 @@ module.exports = field;
  */ 
 function field (str) {
 	if (!str) return "";
-	str = String(str);
+	str = String(str).toLowerCase();
 	return (
 		toUpperCase(str[0]) +
 		str.slice(1).replace(hyphenReg, toUpperCase)
