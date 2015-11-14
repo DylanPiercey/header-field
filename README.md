@@ -16,6 +16,9 @@ var field = require('header-field');
 field("content-type"); //-> "Content-Type"
 field("content-Length"); //-> "Content-Length"
 field("Content-Disposition"); //-> "Content-Disposition"
+
+// Special case: referrer -> referer.
+field("referrer"); //-> "Referer"
 ```
 
 ### Contributions

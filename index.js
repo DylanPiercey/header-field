@@ -6,11 +6,17 @@ module.exports = field;
  */ 
 function field (str) {
 	if (!str) return "";
-	str = String(str).toLowerCase();
-	return (
+	var result = String(str);
+	result = (
 		toUpperCase(str[0]) +
-		str.slice(1).replace(hyphenReg, toUpperCase)
+		str
+			.slice(1)
+			.toLowerCase()
+			.replace(hyphenReg, toUpperCase)
 	);
+	// Special case to fix the broken http spec.
+	if (result === "Referrer") result = "Referer";
+	return result;
 }
 
 /**
