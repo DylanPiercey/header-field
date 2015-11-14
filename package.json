@@ -1,7 +1,7 @@
 {
   "name": "header-field",
-  "version": "0.1.2",
-  "description": "Properly format a header field into a capitalized hyphenated string.",
+  "version": "0.2.0",
+  "description": "Properly format a header field into a lowercased hyphenated string.",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "main": "index.js",
   "keywords": [

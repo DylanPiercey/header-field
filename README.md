@@ -1,5 +1,5 @@
 # Header-Field
-Transform header fields into a properly formatted string, with uppercase characters and hyphens.
+Transform header fields into a properly formatted string, with lowercase characters and hyphens.
 
 # Installation
 
@@ -13,15 +13,12 @@ npm install header-field
 ```javascript
 var field = require('header-field');
 
-field("content-type"); //-> "Content-Type"
-field("content-Length"); //-> "Content-Length"
-field("Content-Disposition"); //-> "Content-Disposition"
+field("content-type"); //-> "content-type"
+field("content-Length"); //-> "content-length"
+field("Content-Disposition"); //-> "content-disposition"
 
 // Special case: referrer -> referer.
-field("referrer"); //-> "Referer"
-
-// For lowercased headers.
-field.lowerCase("Referrer"); //-> "referer"
+field("Referrer"); //-> "referer"
 ```
 
 ### Contributions
