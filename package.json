@@ -1,7 +1,7 @@
 {
   "name": "header-field",
   "description": "Properly format a header field into a lowercased hyphenated string.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "bugs": "https://github.com/DylanPiercey/header-field/issues",
   "devDependencies": {
