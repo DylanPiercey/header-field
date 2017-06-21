@@ -1,24 +1,27 @@
 {
   "name": "header-field",
-  "version": "0.2.1",
   "description": "Properly format a header field into a lowercased hyphenated string.",
+  "version": "0.2.1",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
-  "main": "index.js",
-  "keywords": [
-    "header",
-    "field",
-    "hyphenated",
-    "hyphen",
-    "capitalize",
-    "capital",
-    "http"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DylanPiercey/header-field"
-  },
+  "bugs": "https://github.com/DylanPiercey/header-field/issues",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-mocha": "^2.1.3"
+  },
+  "homepage": "https://github.com/DylanPiercey/header-field",
+  "keywords": [
+    "capital",
+    "capitalize",
+    "field",
+    "header",
+    "http",
+    "hyphen",
+    "hyphenated"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/header-field"
   }
 }
