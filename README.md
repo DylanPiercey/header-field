@@ -1,7 +1,7 @@
 <h1 align="center">
   <!-- Logo -->
   <br/>
-  header-field
+  Header-Field
 	<br/>
 
   <!-- Stability -->
@@ -11,6 +11,18 @@
   <!-- TypeScript -->
   <a href="http://typescriptlang.org">
     <img src="https://img.shields.io/badge/%3C%2F%3E-typescript-blue.svg" alt="TypeScript"/>
+  </a>
+  <!-- Prettier -->
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="Styled with prettier"/>
+  </a>
+  <!-- Travis build -->
+  <a href="https://travis-ci.org/DylanPiercey/header-field">
+  <img src="https://img.shields.io/travis/DylanPiercey/header-field.svg" alt="Build status"/>
+  </a>
+  <!-- Coveralls coverage -->
+  <a href="https://coveralls.io/github/DylanPiercey/header-field">
+    <img src="https://img.shields.io/coveralls/DylanPiercey/header-field.svg" alt="Test Coverage"/>
   </a>
   <!-- NPM version -->
   <a href="https://npmjs.org/package/header-field">
@@ -22,7 +34,7 @@
   </a>
   <!-- Size -->
   <a href="https://npmjs.org/package/header-field">
-    <img src="https://img.shields.io/badge/size-396b-green.svg" alt="Browser Bundle Size"/>
+    <img src="https://img.shields.io/badge/size-669b-green.svg" alt="Browser Bundle Size"/>
   </a>
 </h1>
 
