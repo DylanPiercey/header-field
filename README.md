@@ -34,7 +34,7 @@
   </a>
   <!-- Size -->
   <a href="https://npmjs.org/package/header-field">
-    <img src="https://img.shields.io/badge/size-669b-green.svg" alt="Browser Bundle Size"/>
+    <img src="https://img.shields.io/badge/size-418-green.svg" alt="Browser Bundle Size"/>
   </a>
 </h1>
 
